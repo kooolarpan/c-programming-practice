@@ -5,8 +5,8 @@ int main(){
     int sum, number;
     float average;
     printf("Please enter any 10 numbers\n");
-    for (int i = 0; i < 10; i++){
-        printf("Number-%d: ",i+1);
+    for (int i = 1; i <= 10; i++){
+        printf("Number-%d: ",i);
         scanf("%d",&number);
         sum += number;
     }
