@@ -9,24 +9,24 @@ and display their division based on the following table. */
  */
 
 #include <stdio.h>
-int main(){
+int main() {
     int obtainedPercentage;
     printf("=== Welcome to Exam Result Portal ===\n");
     printf("Enter your obtained percentage: ");
-    scanf("%d",&obtainedPercentage);
-    if(obtainedPercentage<=100){
-        if(obtainedPercentage>=80){
+    scanf("%d", &obtainedPercentage);
+    if (obtainedPercentage <= 100) {
+        if (obtainedPercentage >= 80) {
             printf("Congrats! You have secured distinction");
-        }else if(obtainedPercentage<80 && obtainedPercentage>=60){
+        } else if (obtainedPercentage < 80 && obtainedPercentage >= 60) {
             printf("Congrats! You have secured first division");
-        }else if(obtainedPercentage<60 && obtainedPercentage>=40){
+        } else if (obtainedPercentage < 60 && obtainedPercentage >= 40) {
             printf("Congrats! You have secured second division");
-        }else{
+        } else {
             printf("Sorry, You have failed");
         }
-    }else{
+    } else {
         printf("Sorry! The provided percentage is greater than 100");
-    }        
+    }
     printf("\n=== Thanks for visiting Exam Result Portal ===");
     return 0;
 }
