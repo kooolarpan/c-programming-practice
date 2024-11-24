@@ -1,0 +1,6 @@
+WAP to check whether the given number is odd or even.
+WAP to print even numbers from 200 to 500.
+WAP to print the numbers from 100 & 200 that is divisble by 5 & 7.
+WAP to find the sum and average of first N natural numbers.
+WAP to print the sum of first 5 even numbers.
+WAP to print the factorial of a given number.
