@@ -1,3 +1,5 @@
+// WAP to convert the given string to lowercase and uppercase
+
 #include <stdio.h>
 #include <string.h>
 int main() {

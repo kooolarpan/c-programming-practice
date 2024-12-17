@@ -1,3 +1,5 @@
+// WAP to concat two strings
+
 #include <stdio.h>
 #include <string.h>
 int main() {

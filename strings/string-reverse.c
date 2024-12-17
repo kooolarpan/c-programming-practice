@@ -1,3 +1,5 @@
+// WAP to reverse the given string
+
 #include <stdio.h>
 #include <string.h>
 int main() {
