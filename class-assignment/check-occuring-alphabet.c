@@ -1,5 +1,5 @@
-/* WAP that asks the user to input a sentence and find how many times the letters
- 'a' and 'A' occurs in that sentence.  */
+/* WAP that asks the user to input a sentence and find how many times the
+ letters 'a' and 'A' occurs in that sentence.  */
 
 #include <stdio.h>
 #include <string.h>
@@ -8,7 +8,8 @@ int main() {
     printf("Enter a sentence: ");
     fgets(string, sizeof(string), stdin);
     int count = 0;
-    for (int i = 0; string[i] != '\0'; i++) {
+    int stringLength = strlen(string);
+    for (int i = 0; i < stringLength; i++) {
         if (string[i] == 'a' ||
             string[i] == 'A') {  // Check for both lowercase and uppercase 'a'
             count++;
