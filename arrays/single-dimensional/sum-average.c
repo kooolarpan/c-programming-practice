@@ -1,5 +1,5 @@
-// WAP to ask users to input 5 numbers and compute their sum and average using
-// array
+// WAP to ask users to input 5 numbers and compute
+// their sum and average using array
 
 #include <stdio.h>
 int main() {
